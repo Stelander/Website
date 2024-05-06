@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrot Website</title>
+<style>
+  /* CSS Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .carrot-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to the World of Carrots</h1>
+</header>
+
+<div class="container">
+  <h2>About Carrots</h2>
+  <p>Carrots are root vegetables that come in various colors, such as orange, purple, and white. They are rich in vitamins and minerals, particularly vitamin A and beta-carotene.</p>
+
+  <h2>Types of Carrots</h2>
+  <ul>
+    <li>Orange Carrots</li>
+    <li>Purple Carrots</li>
+    <li>White Carrots</li>
+  </ul>
+
+  <h2>Images of Carrots</h2>
+  <div class="grid">
+    <div class="grid-item">
+      <img class="carrot-img" src="orange_carrot.jpg" alt="Orange Carrot">
+    </div>
+    <div class="grid-item">
+      <img class="carrot-img" src="purple_carrot.jpg" alt="Purple Carrot">
+    </div>
+    <div class="grid-item">
+      <img class="carrot-img" src="white_carrot.jpg" alt="White Carrot">
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2024 Carrot Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
